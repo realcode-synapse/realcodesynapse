@@ -1,0 +1,129 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+  header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+
+  .phone {
+    background: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+
+  .hero {
+    background-color: #e3f2fd;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+    color: #1976d2;
+  }
+
+  .course-section {
+    padding: 40px 20px;
+  }
+
+  .course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .course-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+
+  .course-card:hover {
+    transform: scale(1.03);
+  }
+
+  .course-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .course-description {
+    font-size: 0.95rem;
+    color: #555;
+  }
+
+  footer {
+    background-color: #212121;
+    color: #fff;
+    padding: 40px 20px;
+    margin-top: 40px;
+  }
+
+  footer h3 {
+    color: #90caf9;
+    margin-bottom: 10px;
+  }
+
+  footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  footer li {
+    margin-bottom: 10px;
+    color: #ccc;
+  }
+
+  .footer-columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .copyright {
+    text-align: center;
+    color: #aaa;
+    font-size: 0.9rem;
+  }
+  .logo {
+font-size: 1.5rem;
+font-weight: bold;
+text-decoration: none;
+color: #000;
+}
+.top-banner {
+background: #e0f7fa;
+color: #d32f2f;
+text-align: center;
+padding: 8px 0;
+font-weight: bold;
+font-size: 1rem;
+}

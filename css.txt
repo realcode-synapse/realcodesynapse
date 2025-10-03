@@ -1,0 +1,44 @@
+
+Python Full Stack Developer Course
+
+Mode of Training:
+- Offline / Online  
+- Instructor-led live sessions  
+- Real-time projects and hands-on practice  
+- Duration: 100 Days  
+- Assignments after every module  
+- Mock Interviews for job readiness  
+
+Module 1: Frontend Development  
+1. HTML5 – Semantic tags, forms, media, tables, structure  
+2. CSS3 – Selectors, Box Model, Flexbox, Grid, Media Queries  
+3. JavaScript (JS) – ES6+, DOM manipulation, Events, Functions  
+4. Bootstrap 5 – Components, Grid, Forms, Responsive Design  
+5. React.js – JSX, Props, State, Hooks, Routing, API Integration  
+
+Module 2: Version Control  
+- Git Basics (init, add, commit, push, pull, clone, branch)  
+- GitHub for collaboration and project hosting  
+
+Module 3: Backend Development  
+1. Core Python – Variables, Loops, Functions, OOP, File Handling  
+2. Python Libraries – requests, json, os, re, etc.  
+3. Django Framework – Routing, Templates, ORM, Admin, REST API  
+
+Module 4: Database  
+- MySQL / PostgreSQL – SQL Basics, CRUD, Joins, Integration with Django  
+
+Module 5: Real-Time Projects  
+- Build full-stack applications with Django and React  
+- Project examples: Blog App, Job Portal, E-commerce site  
+
+Additional Skills  
+- Python + AI Integration Basics  
+- Data Structures & Algorithms (DSA)  
+- REST API Testing with Postman  
+
+Tools & Platforms  
+- IDEs: VS Code, PyCharm  
+- Tools: Postman, Git, GitHub  
+- Databases: MySQL, SQLite  
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <link rel="stylesheet" href="header.css">
+</head>
+<body>
+    <!-- components/header.html -->
+<div class="top-banner">
+    Admissions open for Job Oriented Course @ Khammam
+  </div>
+  
+  <!-- <header class="main-header">
+    <a href="index.html" class="logo">RCS Logo</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="course.html">Courses</a>
+      <a href="webiner.html">Webinar</a>
+      <a href="dubai.html">Study in Dubai</a>
+    </nav>
+    <div class="phone">7659844898</div>
+  </header> -->
+  <!-- nav/components/header.html -->
+<header class="site-header">
+  <div class="container">
+    <div class="logo">
+      <a href="/index.html">RCS</a>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/course.html">Courses</a></li>
+        <li><a href="/webinar.html">Webinars</a></li>
+        <li><a href="/dubai.html">Dubai</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  function toggleMenu() {
+    const nav = document.getElementById('mainNav');
+    nav.classList.toggle('active');
+  }
+</script>
+
+  
+</body>
+</html>

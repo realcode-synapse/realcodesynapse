@@ -1,0 +1,39 @@
+rcs-website/
+│
+├── index.html                # Home page
+├── course.html               # Course details page
+├── explore.html              # Explore all courses
+├── webinar.html              # Webinars info
+├── dubai.html                # Dubai training info
+│
+├── assets/                   # All static resources
+│   ├── css/
+│   │   ├── reset.css         # (Optional) CSS reset
+│   │   ├── style.css         # Main styles
+│   │   ├── navbar.css        # Navigation styles
+│   │   ├── footer.css        # Footer styles
+│   │   ├── responsive.css    # Media queries
+│   │   └── course.css        # Page-specific styles
+│   │
+│   ├── js/
+│   │   ├── main.js           # Main JS logic
+│   │   ├── ajax-loader.js    # Load header/footer via AJAX
+│   │   ├── navbar.js         # Navigation toggle, etc.
+│   │   └── whatsapp.js       # WhatsApp API logic
+│   │
+│   ├── images/               # All images/logos/banners
+│   │   ├── logo.png
+│   │   ├── hero-banner.jpg
+│   │   └── courses/
+│   │
+│   └── fonts/                # Custom fonts if any
+│
+├── components/               # Reusable parts
+│   ├── header.html           # Navigation bar
+│   ├── footer.html           # Common footer
+│
+├── data/                     # Course/webinar JSON (if needed later)
+│   ├── courses.json
+│   ├── webinars.json
+│
+└── README.md                 # Project documentation
