@@ -6,13 +6,20 @@
   <meta name="description" content="RealCode Synapse (RCS) offers industry-ready training in Java, Python, Full Stack, and more in Khammam." />
   <meta name="keywords" content="Java training in Khammam, Python training in Khammam, Full Stack training in Khammam, Java Full Stack, Python, Python Full Stack, React,HTML, CSS, JavaScript, UI, Node.Js, Express.JS, Tally, PGDCA, Web Development,C Language, Khammam, RealCode Synapse" />
   <meta name="author" content="RealCode Synapse" />
-  <title> RealCode Synapse Khammam | Best Job-Oriented Training</title>
+  <title> RealCode-Khammam </title>
   <link rel="stylesheet" href="./assests/css/style.css">
   <link rel="stylesheet" href="./assests/css/header-footer.css">
+  <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  
  </head>
 <body>
+  <div class="container-fluid">
+    <!-- Header Starts --------------------------------------------------------------------------->
   <div class="top-banner">
-    <p>Admissions open for Job Oriented Course <span>@ Khammam</span></p>
+    <div class="rcs">RealCode Synapse </div>
+    <span style="color:#105e9e ;">IT Training Institute</span>
+   <p>Admissions open for Job Oriented Course <span>@ Khammam</span></p>
+
   </div> 
  
   <header class="header">
@@ -20,28 +27,45 @@
       <div class="logo">
         <a href="./index.html"><img src="./assests/images/logo.png" alt="" id="rcs-logo"></a>
       </div>
-      <nav class="navbar" id="navbar" .nav-container>
-        <ul class="nav-links" id="navLinks">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./nav/course.html">Courses</a></li>
-          <!-- <li><a href="./nav/explore.html">Explore</a></li> -->
-          <li><a href="./nav/webiner.html">Webinars</a></li>
-          <li><a href="./nav/dubai.html">Dubai</a></li>
-        </ul>
-        <div class="hamburger" id="hamburger">
-          ☰
-        </div>
-      </nav>
-      <div class="phone" id="phone">7659844898</div>
+     
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: transparent;">
+
+  <div class="container-fluid">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./nav/course.html">Courses</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./nav/webiner.html">Webiners</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./nav/dubai.html">Dubai</a>
+        </li>
+        
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+      <div class="phone" id="phone">📞 +91 7659844898</div>
     </div>
   </header>
   
-  <!-- ------------------------------------------------------------------------------ -->
+  <!-- Header Ends------------------------------------------------------------------------------ -->
   
  <!-- Hero Section -->
   <section class="hero">
     <h2>Start your Learning<br>with Real-Time IT Professionals</h2>
-    <button  class="explore-btn" onclick="location.href='./nav/explore.html'">Explore Courses</button>
+    <button  class="explore-btn" onclick="location.href='./nav/course.html'">Explore Courses</button>
     <div class="stats">
       <div class="stat-item years">
         <span>17+  Years</span> teaching experience
@@ -99,18 +123,9 @@
       <button class="whatsapp-btn">💬 Leave a WhatsApp Message</button>
     </div>
   </footer>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-  const hamburger = document.getElementById("hamburger");
-  const navLinks = document.getElementById("navLinks");
 
-  hamburger.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-  });
-});
-
-  </script>
-
+</div>
+  <script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

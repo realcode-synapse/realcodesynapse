@@ -54,11 +54,13 @@
     text-align: center;
     padding: 50px 20px;
     background: #fff;
+   color: #0d47a1;
+   font-size:32px;
+
   }
 
   .hero h2 {
     font-size: 2rem;
-    margin-bottom: 20px;
   }
 
   .explore-btn {
@@ -352,9 +354,36 @@
   border-radius: 5px;
 }
 
+
 #rcs-logo{
   height: 40px;
  mix-blend-mode: multiply;
   background: transparent;
 
+}
+.rcs{
+  color: #105e9e;
+  font-size: 30px;
+}
+
+.section-title {
+  text-align: center;
+  margin: 40px 0 20px;
+  font-size: 2rem;
+  color: #0d47a1;
+}
+
+/* Style the phone number in navbar for mobile view */
+.navbar .phone {
+  font-weight: bold;
+  color: #105e9e;
+  font-size: 1rem;
+}
+
+@media (max-width: 991px) {
+  .navbar .phone {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
 }
